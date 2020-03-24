@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!-- a linha abaixo garante a compatibilidade com relação aos diversos tamanhos de tela -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contato</title>
+    <link rel="shortcut icon" href="imagens/icones/favicon.png">
+    <link rel="stylesheet" href="css/estilo.css">
+    <!-- link com a biblioteca JQUERY -->
+    <script src="scripts/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+
+	 <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="conteudo.html">America do Sul </a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+
+   <div id="contato">
+            <h1 id="contato">Formulário de contato</h1>
+            <form action="formulario.php" method="POST">
+                <input type="text" name="nome" placeholder="Nome">
+                <input type="text" name="email" placeholder="E-mail">
+                <textarea name="mensagem" placeholder="Mensagem"></textarea>
+                <input type="submit" name="nome" placeholder="ENVIAR">
+            </form>
+        </div>
+
+         <br><br>
+        <section class="map-responsive">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.7631151286596!2d-46.577093785022726!3d-23.54102098469299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5ec26cfdcfed%3A0x49e7eb66fd4f1f2!2sSenac%20Tatuap%C3%A9!5e0!3m2!1spt-BR!2sbr!4v1569606983302!5m2!1spt-BR!2sbr"
+                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" id="mapa"></iframe>
+        </section>
+
+        <br>
+
+        <footer>
+           <center><p>©2020 - Web Tour</p></center> 
+        </footer>
+
+    </div>
+  
+    <!-- scripts JS/JQUERY usados no menu reponsivo -->
+    <script src="scripts/topo.js"></script>
+    <script src="scripts/menuresponsivo.js"></script>
+    <script src="scripts/fixamenu.js"></script>
+    <script src="scripts/removeclick.js"></script>
+
+</body>
+</html>
